@@ -1,0 +1,78 @@
+.product-box{
+	width: 210px;
+	height: 329px;
+	margin: 2px;
+	border: 1px solid rgba(224,224,224,1.00); 
+	float: left;
+	transition: 0.3s;
+}
+.box:hover .hinh{
+	position: absolute;
+	top: 5px;
+}
+
+
+.box:hover .ten-sp{
+	color: blue;
+}
+.product-box a{
+	text-decoration: none;
+}
+.hinh-sp{
+	height: 230px;
+	width: 210px;
+	position: relative;
+}
+.ten-sp{
+	text-align: left;
+	margin: 0;
+	padding: 5px 0 0 10px;
+	font-size: 17px;
+	color: black;
+}
+.gia-tien{
+	margin: 0;
+	padding: 0px 0 0 10px;
+	font-size: 18px;
+	color: red;
+}
+.gia-cu{
+	font-size: 12px;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.icon-cart{
+	height: 16px;
+	width: 16px;
+}
+.them-vao-gio-hang{
+	text-align: right;
+	padding-top: 15px;
+}
+.them{
+	font-size: 12px;
+	padding: 8px 5px 5px 7px;
+	color:rgba(126,126,126,1.00);
+	border: 1px solid rgba(224,224,224,1.00);
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.them:hover{
+	box-shadow: 2px 2px 5px black;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.hinh{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:contain;
+	position: absolute;
+	top: 20px;
+	height: 210px;
+	width: 210px;
+	transition: 0.3s;
+}
+.box:hover .chi-tiet{
+	color: blue;
+	transition:0.3s;
+}

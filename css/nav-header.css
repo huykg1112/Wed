@@ -1,0 +1,101 @@
+/* CSS Document */
+.search{
+	float: right;
+	margin: 30px 60px 0 0;
+}
+.search-button {
+	padding: 10px;
+	border: 0;
+	background: rgb(254, 39, 39);
+	border-radius: 0 8px 8px 0;
+	text-decoration: none;
+	margin-left: -3px;
+	color: white;
+}
+.search-box{
+	padding: 10px;
+	border:0;
+	border-radius: 8px 0 0  8px;
+	width: 300px;
+	text-indent: 10px;
+	border-bottom: 1px solid white;
+}
+.header{
+	padding: 40px 0 0 0;
+	background: linear-gradient(#520700,#e1661f);
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	border-radius: 0 0 15px 15px;
+	position: relative;
+	min-width: 800px;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav{
+	background-color:#e1661f(4,78,99,1.00);
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 2px 2px 10px black;
+	min-width: 800px; 	
+}
+.nav .list-left{
+	float: left;
+	margin: 0;
+}
+.nav .list-right{
+	float: right;
+	margin: 0;
+	margin-right: 20px
+}
+.list-left li{
+	margin-right: 10px;
+}
+.list-right li{
+	margin-right: 10px;
+}
+.nav a{
+	color:rgba(211,211,211,1.00);
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nav a:hover{
+	color:white;
+	background-color:#951111 ;
+	border-radius: 5px;
+	transition: all 0.2s linear;
+}
+.logo {
+	margin-left: 40px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 13px;
+}
+.nav .a-light {
+	color: white;
+}
+.nav .dang-ky {
+	margin-left: 0px;
+}
+.nav .dang-nhap{
+	margin-right: 0;
+}
+
+
+.ten-cua-hang{
+	font-family: 'Satisfy';
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+	margin-top:30px ;
+	text-shadow: 3px 3px 5px black;
+}

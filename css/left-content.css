@@ -1,0 +1,42 @@
+#icon-mobile {
+  height: 16px;
+  width: 16px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+.menu-ben-trai {
+  float: left;
+}
+
+.menu-ben-trai li {
+  list-style: none;
+}
+
+.menu-ben-trai a {
+  display: block;
+  padding: 7px 30px 7px 5px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(110, 110, 110);
+  text-align: left;
+}
+
+.menu-ben-trai a:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+.menu-ben-trai .title {
+	color: white;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  text-align: center;
+	background: linear-gradient(to right,#780c03,#e1661f);
+	border-radius: 7px;
+}
+
+.menu-ben-trai ul {
+  padding: 0;
+}
